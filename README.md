@@ -4,4 +4,4 @@ Adapted from : [Open-Ended Medical Visual Question Answering Through Prefix Tuni
 `Visual Encoder`: https://huggingface.co/flaviagiammarino/pubmed-clip-vit-base-patch32<br>
 `LM Decoder`: https://huggingface.co/cemilcelik/distilgpt2_pubmed<br>
 
-Tried to adapt a domain specific training approach on large datsets proposed in the paper for finetuning a small medical datatset by using medical domain adapted pre-trained models. Didn't worked well. 
+The paper proposes open ended VQA training on large medical datasets using encoded prefixes in the prompt to a LM decoder. Tried to adapt this to a much smaller dataset by using medical domain adaped pre-train models, didn't worked well. Still learned a lot. 
